@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-paper-review-on-ewald-based-long-range-message-passing-for-molecular-graphs-and-protein-language-model-fitness-is-a-matter-of-preference",
+        
+          title: "Paper Review on Ewald-based Long-Range Message Passing for Molecular Graphs and Protein Language...",
+        
+        description: "This post reviews two recent papers on how to overcome long ranged interaction in message passing for large molecular graphs using a well-known concept from molecular dynamics and how training data distribution affect overall model performance in the realm of protein language models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/20243287/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
