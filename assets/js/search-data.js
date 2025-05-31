@@ -72,15 +72,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-ai810-blog-post-20243287",
         
-          title: "",
+          title: "AI810 Blog Post (20243287)",
         
-        description: "",
+        description: "This post reviews two recent papers: Ewald-based Long-Range Message Passing for Molecular Graphs (ICML 2023) and Protein Language Model Fitness is a Matter of Preference (ICLR 2025).",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-04-28-20243287/";
+            window.location.href = "/blog/2025/20243287/";
           
         },
       },{id: "post-a-post-with-plotly-js",
