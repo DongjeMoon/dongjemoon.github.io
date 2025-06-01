@@ -7,30 +7,50 @@
   publisher={OpenReview.net}
 }
 
-@incollection{hampshire1991equivalence,
-  title={Equivalence proofs for multi-layer perceptron classifiers and the Bayesian discriminant function},
-  author={Hampshire II, John B and Pearlmutter, Barak},
-  booktitle={Connectionist Models},
-  pages={159--172},
-  year={1991},
-  publisher={Elsevier}
+@inproceedings{weinstein2022nonidentifiability,
+  title={Non-identifiability and the Blessings of Misspecification in Models of Molecular Fitness},
+  author={Eli N Weinstein and Alan Nawzad Amin and Jonathan Frazer and Debora Susan Marks},
+  booktitle={Advances in Neural Information Processing Systems},
+  editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+  year={2022},
+  url={https://openreview.net/forum?id=CwG-o0ind6t}
 }
 
-@inproceedings{gish1990probabilistic,
-  title={A probabilistic approach to the understanding and training of neural network classifiers},
-  author={Gish, Herbert},
-  booktitle={International Conference on Acoustics, Speech, and Signal Processing},
-  pages={1361--1364},
-  year={1990},
-  organization={IEEE}
+@article{Ding2024.03.07.584001,
+	author={Ding, Frances and Steinhardt, Jacob},
+	title={Protein language models are biased by unequal sequence sampling across the tree of life},
+	elocation-id={2024.03.07.584001},
+	year={2024},
+	doi={10.1101/2024.03.07.584001},
+	publisher={Cold Spring Harbor Laboratory},
+	abstract={Protein language models (pLMs) trained on large protein sequence databases have been used to understand disease and design novel proteins. In design tasks, the likelihood of a protein sequence under a pLM is often used as a proxy for protein fitness, so it is critical to understand what signals likelihoods capture. In this work we find that pLM likelihoods unintentionally encode a species bias: likelihoods of protein sequences from certain species are systematically higher, independent of the protein in question. We quantify this bias and show that it arises in large part because of unequal species representation in popular protein sequence databases. We further show that the bias can be detrimental for some protein design applications, such as enhancing thermostability. These results highlight the importance of understanding and curating pLM training data to mitigate biases and improve protein design capabilities in under-explored parts of sequence space.Competing Interest StatementThe authors have declared no competing interest.},
+	URL={https://www.biorxiv.org/content/early/2024/03/12/2024.03.07.584001},
+	eprint={https://www.biorxiv.org/content/early/2024/03/12/2024.03.07.584001.full.pdf},
+	journal={bioRxiv}
 }
 
-@article{suter1990multilayer,
-  title={The multilayer perceptron as an approximation to a Bayes optimal discriminant function},
-  author={Suter, Bruce W},
-  journal={IEEE transactions on neural networks},
-  volume={1},
-  number={4},
-  pages={291},
-  year={1990}
+@InProceedings{pmlr-v261-hermann24a,
+  title={Beware of Data Leakage from Protein LLM Pretraining},
+  author={Hermann, Leon and Fiedler, Tobias and Nguyen, Hoang An and Nowicka, Melania and Bartoszewicz, Jakub M},
+  booktitle={Proceedings of the 19th Machine Learning in Computational Biology meeting},
+  pages={106--116},
+  year={2024},
+  editor={Knowles, David A and Mostafavi, Sara},
+  volume={261},
+  series={Proceedings of Machine Learning Research},
+  month={05--06 Sep},
+  publisher={PMLR},
+  pdf={https://raw.githubusercontent.com/mlresearch/v261/main/assets/hermann24a/hermann24a.pdf},
+  url={https://proceedings.mlr.press/v261/hermann24a.html},
+  abstract={Pretrained protein language models are becoming increasingly popular as a backbone for protein property inference tasks such as structure prediction or function annotation, accelerating biological research. However, related research oftentimes does not consider the effects of data leakage from pretraining on the actual downstream task, resulting in potentially unrealistic performance estimates. Reported generalization might not necessarily be reproducible for proteins highly dissimilar from the pretraining set.  In this work, we measure the effects of data leakage from protein language model pretraining in the domain of protein thermostability prediction. Specifically, we compare two different dataset split strategies: a pretraining-aware split, designed to avoid similarity between pretraining data and the held-out test sets, and a commonly-used naive split, relying on clustering the training data for a downstream task without taking the pretraining data into account. Our experiments suggest that data leakage from language model pretraining shows consistent effects on melting point prediction across all experiments, distorting the measured performance by an average 11.1% compared to the pretraining-aware split. The source code and our dataset splits are available at https://gitlab.com/dacs-hpi/pretraining-aware-hotprot.}
+}
+
+@misc{wang2019bertmouthspeakbert,
+      title={BERT has a Mouth, and It Must Speak: BERT as a Markov Random Field Language Model}, 
+      author={Alex Wang and Kyunghyun Cho},
+      year={2019},
+      eprint={1902.04094},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/1902.04094}, 
 }
